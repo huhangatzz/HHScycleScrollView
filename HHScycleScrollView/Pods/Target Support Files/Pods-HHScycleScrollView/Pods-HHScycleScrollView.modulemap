@@ -1,0 +1,6 @@
+framework module Pods_HHScycleScrollView {
+  umbrella header "Pods-HHScycleScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
