@@ -11,11 +11,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true  
   spec.frameworks = 'UIKit'
 
-  spec.source_files  = "HHBaseScycleScrollView/HHBaseScycleScrollView.h"
-
-  spec.subspec 'HHScycleView' do |ss|
-    ss.source_files = 'HHScycleScrollView/HHScycleScrollView/HHScycleView/*.{h,m}'
-    ss.public_header_files = 'HHScycleScrollView/HHScycleScrollView/HHScycleView/*.h'
-  end
+  spec.source_files = 'HHScycleScrollView/HHScycleScrollView/HHScycleView/*.{h,m}'
 
 end
